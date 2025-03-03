@@ -1,0 +1,355 @@
+body {
+  font-family: "Papyrus", "Comic Sans MS", "Times New Roman";
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  @media (width > 1500px) {
+    background-color: #f7fcfc;
+  }
+}
+
+.format_screen {
+  width: auto;
+  max-width: 1500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  flex-wrap: wrap;
+}
+
+.above_nav {
+  display: grid;
+  place-items: center;
+}
+.above_nav h1 {
+  margin-top: -50%;
+  font-size: 4em;
+  background: linear-gradient(to right, #F57373, #A349A4, #F79F37);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+.above_nav  img{
+  width: 100%;
+  height: auto;
+}
+
+.nav_bar {
+@media (width < 1025px) {
+  display: none;
+}
+}
+
+.nav_list {
+  background-color: white;
+}
+
+.nav_bar ul{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  width: auto;
+}
+
+.nav_bar li {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.nav_bar a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  padding: 0.7em 1.8em;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-align: center;
+  transition: 0.4s;
+}
+
+.nav_bar a:hover {
+  opacity: 75%;
+}
+
+ #selected_page_home {
+   background: #4FD1FF;
+ }
+
+
+ #selected_page_activities {
+   background-color: #F79F37;
+ }
+ #selected_page_lodging {
+   background-color: #F57373;
+ }
+ #selected_page_food {
+   background-color: #BA65BB;
+ }
+ #selected_page_transportation {
+   background-color:#2BDEEC;
+ }
+ #selected_page_faq {
+   background-color: #FF8CB6;
+ }
+
+ #under_nav_bar_home {
+   background-color: #4FD1FF;
+   padding: 2em 0em 0em 0em;
+   width: auto;
+ }
+#under_nav_bar_transportation {
+  background-color: #2BDEEC;
+  padding: 2em 0em 0em 0em;
+  width: auto;
+}
+#under_nav_bar_lodging {
+  background-color: #F57373;
+  padding: 2em 0em 0em 0em;
+  width: auto;
+}
+#under_nav_bar_food {
+  background-color: #BA65BB;
+  padding: 2em 0em 0em 0em;
+  width: auto;
+}
+#under_nav_bar_activities {
+  background-color: #F79F37;
+  padding: 2em 0em 0em 0em;
+  width: auto;
+}
+#under_nav_bar_faq {
+  background-color: #FF8CB6;
+  padding: 2em 0em 0em 0em;
+  width: auto;
+}
+
+
+
+footer {
+  background-color: lightslategrey;
+  padding-top: auto;
+  justify-content: center;
+}
+
+.footer_logo {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.consultation_button li {
+  list-style: none;
+}
+.copyright {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.copyright p {
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.social_media {
+  display: flex;
+  justify-content: center;
+}
+.slogan {
+  color: white;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  display: inline-flex;
+  flex-wrap: wrap;
+
+justify-content: space-evenly;
+}
+.container_item img {
+  max-width: 400px;
+  max-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0px 0px 10px 2px black;
+}
+
+.container_item {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+  justify-items: center;
+}
+p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.1em;
+  font-family:  "Comic Sans MS", "Times New Roman";
+}
+
+
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #8C41F1;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-family: "Papyrus", "Comic Sans MS", "Times New Roman";
+}
+
+button a {
+  text-decoration: none;
+
+}
+button:hover {background-color: #6F12ED}
+button:active {
+  background-color: #6F12ED;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+a:visited {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+
+
+#lodging_button {background-color: #F57373;}
+#lodging_button:hover {background-color: #F24343}
+#lodging_button:active {
+  background-color: #F24343;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#food_button {background-color: #BA65BB}
+#food_button:hover {background-color: #A349A4}
+#food_button:active {
+  background-color: #A349A4;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#activities_button {background-color: #F79F37}
+#activities_button:hover {background-color: #F1870A}
+#activities_button:active {
+  background-color: #F1870A;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#transportation_button {background-color: #2BDEEC}
+#transportation_button:hover {background-color: #13C3D1}
+#transportation_button:active {
+  background-color: #13C3D1;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#home_button {background-color: #4FD1FF}
+#home_button:hover {background-color: #1CC4FF}
+#home_button:active {
+  background-color: #1CC4FF;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+  width: 100%;
+  @media (width > 1024px) {
+    display: none;
+  }
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  opacity: 75%;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+#list_item {
+  list-style: none;
+  decoration: none;
+  width: 100%;
+}
